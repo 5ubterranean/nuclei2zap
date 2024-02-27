@@ -4,7 +4,7 @@ Simple script to convert Nuclei templates to ZAP scripts. It is made to convert 
 # Why?
 While Nuclei being far most efficient of making use of the templates made for it I thoght there would be some ocassions where it would be nice to have some active scans on background that uses the current information (mostly session stuff), and while you can just add them at the time of using Nuclei I thought this would be easier. Outside of rare situations I would still recomend using Nuclei ratter than having a ton of active rules running on backgroud.
 
-#Help menu
+# Help menu
 
 ```
 usage: nuclei2zap.py [-h] -t TEMPLATES [-f]
